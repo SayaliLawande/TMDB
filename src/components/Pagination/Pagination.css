@@ -1,0 +1,47 @@
+.pagination{
+    display:flex;
+    text-align:center;
+    justify-content:center;
+    margin-top: 20px;
+}
+
+.prev {
+    margin-right: 20px;
+    cursor: pointer;
+    left: 85%;
+    font: icon;
+    font-size: 15px;
+    color: darkslategrey;
+    background-color: #e7e7e6;
+    padding: 5px 10px;
+    radius : 0.5px;
+    border-radius: 8px;
+    margin-top : 20px;
+}
+
+.next {
+    margin-left : 20px;
+    cursor: pointer;
+    left: 85%;
+    font: icon;
+    font-size: 15px;
+    color: darkslategrey;
+    background-color: #e7e7e6;
+    padding: 5px 10px;
+    radius : 0.5px;
+    border-radius: 8px;
+    margin-top : 20px;
+
+}
+
+.page-no {
+    font: icon;
+    font-size: 15px;
+    color: darkslategrey;
+    background-color: #e7e7e6;
+    padding: 5px 10px;
+    radius : 0.5px;
+    border-radius: 8px;
+    margin-top : 20px;
+
+}

@@ -1,0 +1,63 @@
+.watchlistcard{
+    height:300px;
+    width:300px;
+    display: flex;
+    justify-content: space-between;
+    margin:20px;
+    align : center;
+}
+
+.watchlist-card-img img{
+    height:300px;
+    width:300px;
+}
+
+.watchlist-card-delete{
+    cursor:pointer;
+    color:blue;
+}
+
+.asc-btn {
+    margin-left : 20px;
+    cursor: pointer;
+    left: 85%;
+    font: icon;
+    font-size: 15px;
+    color: darkslategrey;
+    background-color: #e7e7e6;
+    padding: 5px 10px;
+    radius : 0.5px;
+    border-radius: 8px;
+    margin-top : 20px;
+
+}
+
+.desc-btn {
+    margin-left : 20px;
+    cursor: pointer;
+    left: 85%;
+    font: icon;
+    font-size: 15px;
+    color: darkslategrey;
+    background-color: #e7e7e6;
+    padding: 5px 10px;
+    radius : 0.5px;
+    border-radius: 8px;
+    margin-top : 20px;
+
+}
+
+.search-input {
+    margin-left : 20px;
+    cursor: pointer;
+    left: 85%;
+    font: icon;
+    font-size: 15px;
+    color: darkslategrey;
+    background-color: white;
+    padding: 5px 10px;
+    radius : 0.5px;
+    border-radius: 8px;
+    margin-top : 20px;
+
+}

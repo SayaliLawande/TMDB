@@ -1,0 +1,15 @@
+.card-parent{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly; /* Ensures equal spacing */
+    gap: 20px; /* Adds spacing between cards */
+    padding: 20px;
+}
+
+h1{
+    font-size: 2.5rem; /* Large size */
+        font-weight: bold; /* Make it bold */
+        text-align: center; /* Center the text */
+        color: #21a8e1; /* White text */
+        margin: 20px 0; /* Add some spacing */
+}

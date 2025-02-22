@@ -1,0 +1,4 @@
+.card-img img{
+    width:400px;
+    flex-wrap: wrap;
+}
