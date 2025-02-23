@@ -46,15 +46,19 @@ function WatchList(){
 
     return (
         <div className="watchlist">
+        <div className="search">
         <button onClick={handleAscendingSort} className="asc-btn">Asc Sort</button>
         <button onClick={handleDescendingSort} className="desc-btn">Desc Sort</button>
 
         <input onChange={handleSearch} value={search} className="search-input"/>
+        </div>
+        <div className="cards">
         {watchList.filter((item) => {
             return item.title.toLowerCase().includes(search.toLowerCase())
         }).map(function (item){
             return (<WatchListCard item={item} key={item.id}/>)
         })}
+        </div>
         </div>
     )
 }

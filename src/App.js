@@ -70,3 +70,12 @@ function deleteFromWatchList(movieObj){
 }
 
 export default App;
+
+/*
+Slide show
+On click css
+add-remove button
+i - button css
+asc - desc toggle
+footer
+*/

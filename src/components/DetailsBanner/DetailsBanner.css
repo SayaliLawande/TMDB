@@ -15,3 +15,11 @@
     left:50%;
     transform: translateX(-50%);
 }
+
+.trailer{
+    margin-left : 10px;
+    margin-top: 10px;
+    text-decoration:none;
+    color : darkslategrey;
+    font-size:20px;
+}

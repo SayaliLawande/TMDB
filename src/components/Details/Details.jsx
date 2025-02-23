@@ -3,6 +3,7 @@ import {useParams} from 'react-router-dom';
 
 import Cast from '../Cast';
 import DetailsBanner from '../DetailsBanner';
+import './Details.css';
 
 function Details(){
 
@@ -23,7 +24,7 @@ function Details(){
     return(
         <div>
             <DetailsBanner details={details}/>
-            <h2>Cast</h2>
+            <h2>CAST</h2>
             {details.credits ? <Cast cast={details.credits.cast.slice(0,8)} /> : null}
         </div>
     )

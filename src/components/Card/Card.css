@@ -1,4 +1,11 @@
 .card-img img{
     width:400px;
     flex-wrap: wrap;
+    max-width: 100%; /* Makes sure the images don’t overflow */
+        height: auto; /* Maintains aspect ratio */
+        width: 200px; /* Fixed width for consistency */
+        border-radius: 8px; /* Slightly rounded corners for aesthetics */
+        box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2); /* Soft shadow effect */
+        transition: transform 0.3s ease-in-out;
 }
+

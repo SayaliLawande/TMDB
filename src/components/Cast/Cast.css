@@ -1,3 +1,9 @@
 .cast{
-    display:flex;
+    display: flex;
+        flex-direction: row; /* Stack items vertically */
+        flex-wrap: wrap;
+        justify-content: center; /* Centers the images */
+            gap: 15px;
+            margin : 50px;
 }
+

@@ -1,20 +1,33 @@
+.watchlist{
+    margin:20px;
+}
+
+.cards{
+display: flex;
+        flex-direction: row; /* Stack items vertically */
+        flex-wrap: wrap;
+        justify-content: center; /* Centers the images */
+            gap: 15px;
+            margin : 50px;
+
+}
+
 .watchlistcard{
     height:300px;
     width:300px;
     display: flex;
     justify-content: space-between;
-    margin:20px;
+    margin:40px 20px;
     align : center;
 }
 
 .watchlist-card-img img{
     height:300px;
-    width:300px;
+    width:250px;
 }
 
 .watchlist-card-delete{
     cursor:pointer;
-    color:blue;
 }
 
 .asc-btn {
@@ -59,5 +72,13 @@
     radius : 0.5px;
     border-radius: 8px;
     margin-top : 20px;
+}
 
+.search {
+    display: flex;
+    justify-content: center;  /* Centers items horizontally */
+    align-items: center;  /* Centers items vertically */
+    gap: 10px; /* Adds spacing between elements */
+    margin-top: 20px; /* Adjust top margin if needed */
+    margin-bottom : 60px;
 }
